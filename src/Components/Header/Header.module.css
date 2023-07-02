@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../../Fonts/Montserrat-Bold.ttf");
+}
+
+.header{
+    text-align: center;
+    background-image: url(../../assets/banner2.jpeg);
+    padding: 3rem 2rem;
+}
+
+.title{
+    color: skyblue;
+    font-size: 60px;
+    font-family: "MontserratBold" ;
+}
+
+.slider{
+    background-color: transparent;
+}
+
+.imageCoin{
+    width: 80px;
+    margin: 0 auto 1rem auto;
+}

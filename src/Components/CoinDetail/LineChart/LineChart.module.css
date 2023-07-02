@@ -1,0 +1,4 @@
+.Chartcontainer{
+    width: calc(100% - 28%);
+    padding: 50px 30px 0 30px;
+}

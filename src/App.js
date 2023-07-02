@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+//components
+import BodyContent from './Components/BodyContent/BodyContent';
+import CoinDetail from './Components/CoinDetail/CoinDetail';
+
+//react router dom
+import { Route,Routes,Navigate } from 'react-router-dom';
+
 
 function App() {
+
+  useEffect(()=>{
+    document.body.style.backgroundColor = "#14161a"
+  },[])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      <Routes>
+        <Route path='/' element={<BodyContent/>}/>
+        <Route path='/coin/:id' element={<CoinDetail/>}/>
+        <Route path='/*' element={<Navigate to="/"/>}/>
+      </Routes>
     </div>
   );
 }

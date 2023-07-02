@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+}
+.coinContent{
+    width: 28%;
+    text-align: center;
+    padding: 0 20px;
+    margin: 24px 0 0 0;
+    border-right: 2.5px solid rgba(256, 256, 256, .5);
+    /* height: calc(100vh - 89px); */
+}
+.coinContent img{
+    width: 51%;
+    margin:  0 auto;
+    margin-bottom: 1rem;
+}
+.coinContent h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: .7rem;
+}
+
+.coinContent p {
+    text-align: justify;
+    color: rgba(256, 256, 256, .9);
+    margin-bottom: 1rem;
+    line-height: 28px;
+}
+
+.coinContent h2{
+    color: #fff;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.coinContent h2 span{
+    color: rgba(256, 256, 256, .9);
+    font-size: 1.4rem;
+    font-weight: 100;
+}
