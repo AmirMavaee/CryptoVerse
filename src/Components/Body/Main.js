@@ -98,16 +98,16 @@ function Main() {
             </table>
             <div className={value.length > 1 && "hidden"}>
                 <ul className='flex justify-center'>
-                    <li id='pagination' onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>1</a></li>
-                    <li id='pagination' onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>2</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>3</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>4</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>5</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>6</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>7</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>8</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>9</a></li>
-                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-teal-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>10</a></li>
+                    <li id='pagination' onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>1</a></li>
+                    <li id='pagination' onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>2</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>3</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>4</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>5</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>6</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>7</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>8</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>9</a></li>
+                    <li id="pagination" onClick={HasOrNoActiveclass} class="text-green-500 px-3"><a onClick={spcifiedStartAndEnd} href='#'>10</a></li>
                 </ul> 
             </div>
         </div>
